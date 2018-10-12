@@ -1,0 +1,739 @@
+/*--------------------------------------------------
+    [Bootstrap Carousel]
+----------------------------------------------------*/
+
+/* Set displays an element as in inline-level flex container */
+.center-block {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.center-block-wrap {
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+}
+
+.center-block-body {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Colors */
+.color-red {
+    color: #e54a1a;
+}
+
+.color-red-v2 {
+    color: #e6400c;
+}
+
+/* Carousel */
+.carousel-slider .carousel-indicators li {
+    border-radius: 10px !important;
+}
+
+.carousel-slider .carousel-indicators-frontend li {
+    border: none;
+    background: rgba(0, 0, 0, .4);
+}
+
+.carousel-slider .carousel-indicators-frontend .active {
+    background: rgba(0, 0, 0, .6);
+}
+
+.carousel-slider .carousel-caption {
+    left: auto;
+    right: auto;
+    bottom: auto;
+    text-shadow: none;
+    text-align: inherit;
+    padding: 0;
+}
+
+.carousel-slider .carousel-control {
+    width: 10%;
+}
+
+.carousel-slider .carousel-control.right,
+.carousel-slider .carousel-control.left {
+    top: 50%;
+    background-image: none;
+    margin-top: -20px;
+}
+
+.carousel-slider .carousel-control .fa {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: #fff;
+    background: rgba(255, 255, 255, .32);
+    text-shadow: none;
+    padding: 5px;
+}
+
+.carousel-slider .carousel-control-shop .fa {
+    border-radius: 50px;
+}
+
+.carousel-slider .carousel-control-frontend .fa {
+    background: rgba(0, 0, 0, .7);
+}
+
+.carousel-slider .carousel-control-frontend .fa:hover {
+    background: rgba(0, 0, 0, .9);
+}
+
+.carousel-slider .item {
+    width: 100%;
+    height: 100%;
+    min-height: 382px;
+}
+
+/* Carousel Item Background Images */
+.carousel-slider .carousel-item-one {
+    /*background: url(../../../ecommerce/onepage/img/slider/slide1.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-two {
+    /*background: url(../../../ecommerce/onepage/img/slider/slide2.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-three {
+    /*background: url(../../../ecommerce/onepage/img/slider/slide3.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-four {
+    /*background: url(../../../ecommerce/pages/img/shop-slider/slide1/bg.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-five {
+    /*background: url(../../../ecommerce/pages/img/shop-slider/slide2/bg.jpg);*/
+    background-size: cover;
+}
+
+.carousel-slider .carousel-item-six {
+    /*background: url(../../../ecommerce/pages/img/shop-slider/slide3/bg.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-seven {
+    /*background: url(../../../ecommerce/pages/img/shop-slider/slide4/bg.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-eight {
+    /*background: url(../../../ecommerce/pages/img/frontend-slider/bg9.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-nine {
+    /*background: url(../../../ecommerce/pages/img/frontend-slider/bg1.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-slider .carousel-item-ten {
+    /*background: url(../../../ecommerce/pages/img/frontend-slider/bg2.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Carousel Titles */
+.carousel-slider .carousel-title-v1 {
+    font-size: 75px;
+    font-weight: 600;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.carousel-slider .carousel-title-v2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-slider .carousel-title-v3 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-title-v4 {
+    font-size: 100px;
+    line-height: 1.4;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.carousel-slider .carousel-title-v5 {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-title-v6 {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.4;
+    color: #3f5862;
+}
+
+.carousel-slider .carousel-title-normal {
+    font-weight: normal;
+}
+
+/* Carousel Subtitles */
+.carousel-slider .carousel-subtitle-v1 {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-subtitle-v2 {
+    display: block;
+    font-size: 23px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-subtitle-v3 {
+    display: block;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-subtitle-v4 {
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-subtitle-v5 {
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.carousel-slider .carousel-subtitle-v6 {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+    background: #e54a1a;
+    padding: 5px;
+}
+
+.carousel-slider .carousel-subtitle-v7 {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #7b8793;
+}
+
+/* Carousel Btn */
+.carousel-slider .carousel-btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+
+.carousel-slider .carousel-btn:hover {
+    border-color: #e6400c;
+    background: #e6400c;
+    text-decoration: none;
+}
+
+/* Carousel Btn Green */
+.carousel-slider .carousel-btn-green {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 200;
+    color: #fff;
+    background: #6fc561;
+    padding: 5px 15px;
+}
+
+.carousel-slider .carousel-btn-green:hover {
+    text-decoration: none;
+}
+
+/* Carousel Btn Green */
+.carousel-slider .carousel-btn-red {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 200;
+    color: #fff;
+    background: #e54a1a;
+    padding: 5px 15px;
+}
+
+.carousel-slider .carousel-btn-red:hover {
+    text-decoration: none;
+}
+
+/* Border Bottom Title */
+.border-bottom-title {
+    position: relative;
+}
+
+.border-bottom-title:after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    content: " ";
+    background: #fff;
+    text-align: center;
+}
+
+/* Border Top & Bottom */
+.border-top-bottom {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 3px 0;
+}
+
+/* Carousel Positions */
+.carousel-slider .carousel-position-one {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.carousel-slider .carousel-position-two {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.carousel-slider .carousel-position-three {
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+
+.carousel-slider .carousel-position-four {
+    position: absolute;
+    top: 15%;
+    left: auto;
+}
+
+.carousel-slider .carousel-position-five {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.carousel-slider .carousel-position-six {
+    position: absolute;
+    top: 25%;
+    left: auto;
+}
+
+/* Carousel Animation Delay */
+.carousel-slider .carousel-caption .animate-delay {
+    animation-delay: 1s;
+}
+
+/* Carousel Promo Like */
+.carousel-slider .promo-like {
+    position: relative;
+    top: -23px;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    font-size: 80px;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0, 0, 0, .67);
+    margin-right: 7px;
+    padding: 28px;
+}
+
+.carousel-slider .promo-like-text {
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    font: 400 20px/1.4 "PT Sans Narrow", Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.67);
+    padding: 25px;
+}
+
+.carousel-slider .promo-like-text h2 {
+    font: 400 38px/38px "PT Sans Narrow", Arial, sans-serif;
+    margin: 0 0 8px;
+}
+
+.carousel-slider .promo-like-text p {
+    margin: 0;
+}
+
+@media (max-width: 1880px) {
+
+    .carousel-slider .carousel-item-banner {
+        background-size: contain;
+    }
+
+    @media only screen  and (min-width: 1024px)  and (max-width: 1040px) {
+        .carousel-slider .item {
+            min-height: 208px;
+        }
+    }
+
+    @media only screen  and (min-width: 1041px)  and (max-width: 1100px) {
+        .carousel-slider .item {
+            min-height: 220px;
+        }
+    }
+
+    @media only screen  and (min-width: 1101px)  and (max-width: 1200px) {
+        .carousel-slider .item {
+            min-height: 239px;
+        }
+    }
+
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width: 1201px)  and (max-width: 1229px) {
+        .carousel-slider .item {
+            min-height: 247px;
+        }
+    }
+
+    @media only screen  and (min-width: 1230px)  and (max-width: 1274px) {
+        .carousel-slider .item {
+            min-height: 255px;
+        }
+    }
+
+    @media only screen  and (min-width: 1275px)  and (max-width: 1300px) {
+        .carousel-slider .item {
+            min-height: 260px;
+        }
+    }
+
+    @media only screen  and (min-width: 1301px)  and (max-width: 1336px) {
+        .carousel-slider .item {
+            min-height: 268px;
+        }
+    }
+
+    @media only screen  and (min-width: 1337px)  and (max-width: 1375px) {
+        .carousel-slider .item {
+            min-height: 275px;
+        }
+    }
+
+    @media only screen  and (min-width: 1376px)  and (max-width: 1450px) {
+        .carousel-slider .item {
+            min-height: 290px;
+        }
+    }
+
+    @media only screen  and (min-width: 1451px)  and (max-width: 1599px) {
+        .carousel-slider .item {
+            min-height: 321px;
+        }
+    }
+
+    @media only screen  and (min-width: 1600px)  and (max-width: 1640px) {
+        .carousel-slider .item {
+            min-height: 328px;
+        }
+    }
+
+    @media only screen  and (min-width: 1641px)  and (max-width: 1699px) {
+        .carousel-slider .item {
+            min-height: 340px;
+        }
+    }
+
+    @media only screen  and (min-width: 1700px)  and (max-width: 1823px) {
+        .carousel-slider .item {
+            min-height: 366px;
+        }
+    }
+
+    /* Large screens ----------- */
+    @media only screen  and (min-width: 1824px)  and (max-width: 1840px) {
+        .carousel-slider .item {
+            min-height: 368px;
+        }
+    }
+
+    @media only screen  and (min-width: 1841px)  and (max-width: 1880px) {
+        .carousel-slider .item {
+            min-height: 378px;
+        }
+    }
+}
+
+/* Stylesheet design for under max-width: 992px */
+@media (max-width: 991px) {
+    /* 992px */
+    .carousel-slider .carousel-title-v1 {
+        font-size: 50px;
+    }
+
+    .carousel-slider .carousel-title-v2 {
+        font-size: 35px;
+    }
+
+    .carousel-slider .carousel-title-v3 {
+        font-size: 40px;
+    }
+
+    .carousel-slider .carousel-title-v4 {
+        font-size: 60px;
+    }
+
+    /* Carousel Subtitles */
+    .carousel-slider .carousel-subtitle-v1 {
+        font-size: 18px;
+    }
+
+    .carousel-slider .carousel-subtitle-v2 {
+        font-size: 18px;
+    }
+
+    .carousel-slider .carousel-subtitle-v3 {
+        font-size: 30px;
+    }
+
+    .carousel-slider .carousel-subtitle-v4 {
+        font-size: 30px;
+    }
+
+    /* Carousel Promo Like */
+    .carousel-slider .promo-like {
+        top: -24px;
+        width: 120px;
+        height: 120px;
+        font-size: 60px;
+        padding: 25px;
+    }
+
+    .carousel-slider .promo-like-text {
+        padding: 15px;
+    }
+
+    .carousel-slider .promo-like-text h2 {
+        font-size: 25px;
+    }
+
+    .carousel-slider .promo-like-text p {
+        font-size: 16px;
+    }
+
+    .carousel-slider .carousel-item-banner {
+        background-size: contain;
+    }
+
+    /* Nokia Lumia 520 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 533px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.4) {
+        .carousel-slider .item {
+            min-height: 108px;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 533px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.4) {
+        .carousel-slider .item {
+            min-height: 66px;
+        }
+    }
+
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 114px;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 73px;
+        }
+    }
+
+    /* Samsung Galaxy Note 3 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 73px;
+        }
+    }
+
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 130px;
+        }
+    }
+
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 65px;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 97px;
+        }
+    }
+
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 65px;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 114px;
+        }
+    }
+
+    /* iPhone 6 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 76px;
+        }
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 135px !important;
+        }
+    }
+
+    /* iPhone 6+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 148px !important;
+        }
+    }
+
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 84px;
+        }
+    }
+
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 114px;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 70px;
+        }
+    }
+
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 73px;
+        }
+    }
+
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 131px;
+        }
+    }
+
+    /* Nexus 5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 74px;
+        }
+    }
+
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 120px !important;
+        }
+    }
+    /* Nexus 4 ----------- */
+    @media only screen and (min-device-width: 384px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 78px;
+        }
+    }
+
+    @media only screen and (min-device-width: 384px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 130px;
+        }
+    }
+
+    /* Nexus 6 ----------- */
+    @media only screen and (min-device-width: 412px) and (max-device-height: 732px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 84px;
+        }
+    }
+
+    @media only screen and (min-device-width: 412px) and (max-device-height: 732px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+        .carousel-slider .item {
+            min-height: 148px !important;
+        }
+    }
+
+    /* Nexus 7 ----------- */
+    @media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 124px;
+        }
+    }
+
+    @media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 194px;
+        }
+    }
+
+    /* iPad Mini ----------- */
+    @media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        .carousel-slider .item {
+            min-height: 155px;
+        }
+    }
+}
